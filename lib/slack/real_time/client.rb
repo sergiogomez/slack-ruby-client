@@ -6,6 +6,8 @@ module Slack
 
       include Api::MessageId
       include Api::Ping
+      include Api::PresenceQuery
+      include Api::PresenceSub
       include Api::Message
       include Api::Typing
 
